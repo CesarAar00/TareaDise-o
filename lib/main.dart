@@ -18,7 +18,7 @@ onGenerateRoute: (RouteSettings settings) {
           case '/desing':
             return MaterialPageRoute(builder: (_) => Diseno());
             default:
-            return MaterialPageRoute(builder: (_) => const Diseno());
+            return MaterialPageRoute(builder: (_) => Diseno());
         }
       }
     );
